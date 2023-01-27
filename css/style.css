@@ -1,0 +1,131 @@
+.main{
+
+    display:flex;
+    background: #FAFAFA;
+    font-family: 'Roboto',light;
+    
+}
+.heroImage{
+    position:fixed;
+ 
+ top: 72px;
+ 
+ left: 166px;
+}
+.heroImage img{
+    border-radius: 50%;
+    width:576px;
+ height:576px;
+    box-shadow: 0px 4px 31px #0000000A;
+    border: 20px solid #FFFFFF;
+
+}
+.info{
+    position:fixed;
+    left:905px;
+width:500px;
+}
+.logoImage{
+    height:58px;
+}
+.logo{
+    display:flex;
+    position:fixed;
+    top:106px;
+    left:906px;
+    align-items: center;
+    align-content: space-between;
+}
+.title{
+    position: fixed;
+    top:183px;
+left: 905px;
+right:155px;
+margin-bottom: 31.87px;
+height: 100px;
+width:720px;
+
+
+}
+.text{
+    color: #3E3E3E;
+    font-size: 40px;
+    margin-top:19.17px;
+    font-family:roboto,light;
+}
+.highlight{
+    color: #C8242F;
+}
+.text1{
+    position: fixed;
+    top: 315px;
+    left: 904px;
+    font-size: 25px;
+    color: #3E3E3E;
+    width:260px;
+    height:33px;
+    margin-bottom: 23.45px;
+
+}
+.input1{
+    
+    height: 49px;
+    width: 400px;
+    border:1px solid #ADADAD;
+    border-radius: 5px;
+    margin-bottom: 27px;
+    padding-left: 14.5px;
+}
+.input2{
+    height: 49px;
+    width: 400px;
+    border:1px solid #ADADAD;
+    border-radius: 5px;
+    margin-bottom: 30.5px;
+    padding-left: 14.5px;
+}
+.text2{
+    margin-bottom: 23.45;
+}
+.button{
+    width:429px;
+  
+    
+}
+
+.loginbtn{
+    background-color: #C8242F;
+    color: #FFFFFF;
+    width:138px;
+    height: 45px;
+    border-radius: 23px;
+    border-style: none;
+    font-size: 18px;
+   
+}
+.forgetps{
+    font-size: 15px;
+    color: #ADADAD;
+    margin-left: 170px;
+    
+}
+.plast{
+    font-size: 15px;
+    color: #ADADAD;
+}
+.lastspan{
+    font-size: 15px;
+    color: #C8242F;
+}
+.input2::placeholder{
+    color: #ADADAD;
+    font-size: 15px;
+    
+
+}
+.input1::placeholder{
+    color: #ADADAD;
+    font-size: 15px;
+    
+
+}
