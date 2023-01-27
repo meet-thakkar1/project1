@@ -1,0 +1,98 @@
+.{
+    margin:0;
+    padding:0;
+}
+.dashboard{
+    display: flex;
+    flex-direction: column;
+}
+.header-1{
+    display: flex;
+    height:80px;
+    align-items: center;
+
+}
+.header div{
+    display: flex;
+    align-items: center;
+}
+
+.headerlogo{
+ 
+    width: 18px;
+   height: 12px;
+   margin-left: 29px;
+ 
+}
+.companylogo{
+    width: 142px;
+    height: 30px;
+    margin-left: 25px;
+   
+}
+.search{
+    
+    width: 15.59px;
+    height: 15.59px;
+    margin-left: 76.67px;
+ 
+}
+.searchinput{
+border-style: none;
+width: 49px;
+}
+.notification{
+width: 21.52px;
+height: 21.06px;
+margin-left: 924.2px;
+}
+.profilepic{
+ width: 44px;
+ height: 44px;
+ border-radius: 50%;
+ margin-left: 52.28px;
+}
+.profilename{
+    margin-left: 12px;
+}
+.arrow{
+    width: 20px;
+    height: 11px;
+    
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    width:242px;
+
+}
+.sidelist1
+{
+    width:183px;
+    height:43px;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    background: #FFF3F4 0% 0% no-repeat padding-box; 
+}
+.sidelist{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    
+}
+
+.sideimg{
+    width: 15px;
+    height: 15px;
+}
+.sidedash1{
+    color: #C8242F;
+    margin-left: 12.5px;
+    font: normal normal normal 16px/21px Roboto;
+}
+.sidedash{
+    color: #3E3E3E;
+    margin-left: 12.5px;
+    font: normal normal normal 16px/21px Roboto;
+}
