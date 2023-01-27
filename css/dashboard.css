@@ -92,3 +92,9 @@ margin-left: 924.2px;
     margin-left: 12.5px;
     font: normal normal normal 16px/21px Roboto;
 }
+.sideright{
+    background: #FAFAFA;
+}
+.content{
+    display: flex;
+}
