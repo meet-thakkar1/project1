@@ -219,7 +219,7 @@ color: #3E3E3E;
   }
   .link2{
     margin-left: 20.8px;
-    color: #ADADAD;
+    color: #ADADAD !important;
     font-size: 12px;}
     .link3{
        
@@ -243,6 +243,7 @@ color: #3E3E3E;
     .pietitle{
         color: #3E3E3E;
         font-size: 22px;
+        padding-top: 21.52px;
        
     }
     .reddot{
@@ -298,4 +299,14 @@ color: #3E3E3E;
     }
     .rightbottom{
         margin-top: 30px;
+        background: #FFFFFF;
+    }
+    .tabletitle{
+        color: #3E3E3E;
+        font-size: 22px;
+        padding-top: 22.52px;
+        padding-left: 29px;
+    }
+    .tablecontainer{
+        padding-left: 29px;
     }

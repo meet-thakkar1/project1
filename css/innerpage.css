@@ -1,14 +1,10 @@
-.{
-    margin:0;
-    padding:0;
-}
 .dashboard{
     display: flex;
     flex-direction: column;
 }
 .header-1{
     display: flex;
-    height:80px;
+    height:78px;
     align-items: center;
 
 }
@@ -19,15 +15,15 @@
 
 .headerlogo{
  
-    width: 18px;
-   height: 12px;
-   margin-left: 29px;
+   width:36px;  
+   height:24px;
+   margin-left: 20px;
  
 }
 .companylogo{
     width: 142px;
     height: 30px;
-    margin-left: 25px;
+    margin-left: 20px;
    
 }
 .search{
@@ -63,21 +59,26 @@ margin-left: 924.2px;
 .sidebar{
     display: flex;
     flex-direction: column;
-    width:242px;
+    width:300px;
+    z-index: 100;
 
 }
 .sidelist1
 {
     width:183px;
     height:43px;
-    display: flex;
-    align-items: center;
+    display:flex;
+    align-items:center;
     list-style-type: none;
-    background: #FFF3F4 0% 0% no-repeat padding-box; 
+    background: #FFF3F4;
+    border-radius: 5px;
+    margin-top: 25px;
 }
 .sidelist{
+    width: 225px;
+    height:43px;
     display: flex;
-    align-items: center;
+    align-items:center;
     list-style-type: none;
     
 }
@@ -85,14 +86,23 @@ margin-left: 924.2px;
 .sideimg{
     width: 15px;
     height: 15px;
+    align-items:center;
+    padding-left: 17.5px;
 }
 .sidedash1{
     color: #C8242F;
     margin-left: 12.5px;
-    font: normal normal normal 16px/21px Roboto;
+   align-items: center;
+   padding-top: 15px;
+  
 }
 .sidedash{
     color: #3E3E3E;
     margin-left: 12.5px;
-    font: normal normal normal 16px/21px Roboto;
+    
+    padding-top: 15px;
+
+}
+.content{
+    display: flex;
 }
