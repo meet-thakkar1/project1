@@ -1,0 +1,443 @@
+.main{
+
+    display:flex;
+    background: #FAFAFA;
+    font-family: 'Roboto',light;
+    height: 100vh;
+    width: 100%;
+    
+}
+.heroImage{
+    margin-top:72px;
+    margin-left: 166px;
+ 
+ top: 72px;
+ 
+ left: 166px;
+}
+.heroImage img{
+    border-radius: 50%;
+    width:576px;
+ height:576px;
+    box-shadow: 0px 4px 31px #0000000A;
+    border: 20px solid #FFFFFF;
+
+}
+.info{
+    
+    /* left:905px; */
+width:500px;
+margin-left: 164px;
+}
+.logoImage{
+    /* position: relative;
+    height:58px; */
+    /* right:50px; */
+}
+.logo{
+   
+    
+    margin-top:106px;
+    
+   
+    /* align-content: space-between; */
+}
+.title{
+   
+    /* top:183px;
+left: 905px;
+right:155px; */
+margin-bottom: 31.87px;
+height: 100px;
+width:720px;
+
+
+}
+.text{
+    color: #3E3E3E;
+    font-size: 40px;
+    margin-top:19.17px;
+    font-family:roboto,light;
+}
+.highlight{
+    color: #C8242F;
+}
+.text1{
+    
+    top: 315px;
+    left: 904px;
+    font-size: 25px;
+    color: #3E3E3E;
+    width:260px;
+    height:33px;
+    margin-bottom: 23.45px;
+
+}
+.input1{
+    
+    height: 49px;
+    width: 400px;
+    border:1px solid #ADADAD;
+    border-radius: 5px;
+    margin-bottom: 27px;
+    padding-left: 14.5px;
+}
+.input2{
+    height: 49px;
+    width: 400px;
+    border:1px solid #ADADAD;
+    border-radius: 5px;
+    margin-bottom: 30.5px;
+    padding-left: 14.5px;
+}
+.text2{
+    margin-bottom: 23.45;
+}
+.button{
+    width:429px;
+  
+    
+}
+
+.loginbtn{
+    background-color: #C8242F;
+    color: #FFFFFF;
+    width:138px;
+    height: 45px;
+    border-radius: 23px;
+    border-style: none;
+    font-size: 18px;
+   
+}
+.forgetps{
+    font-size: 15px;
+    color: #ADADAD;
+    margin-left: 150px;
+    
+}
+.plast{
+    font-size: 15px;
+    color: #ADADAD;
+}
+.lastspan{
+    font-size: 15px;
+    color: #C8242F;
+}
+.input2::placeholder{
+    color: #ADADAD;
+    font-size: 15px;
+    
+
+}
+.input1::placeholder{
+    color: #ADADAD;
+    font-size: 15px;
+    
+}
+
+
+
+@media screen and (max-width:1024px){
+    .main{
+        width: 100vw;
+        
+    }
+    .heroImage{
+        margin-top:calc(72px/1.4);
+        margin-left: calc(166px/1.4);
+     
+     top: 72px;
+     
+     left: 166px;
+    }
+    
+        .heroImage img{
+            
+    
+            border-radius: 50%;
+            width:calc(576px/1.4);
+            height:calc(576px/1.4);
+            box-shadow: 0px 4px 22.14px #0000000A;
+            border: 20px solid #FFFFFF;
+        
+        
+    }
+    .info{
+    
+        /* left:905px; */
+    width:calc(500px/1.4);
+    margin-left: calc(164px/2.5);}
+    .logoImage{
+        /* position: relative;
+        height:58px; */
+     height:calc(58px/1.4);
+        /* right:50px; */
+    }
+
+    .title{
+       
+    margin-bottom: calc(31.87/1.4)px;
+    height: calc(100px/1.4);
+    width:calc(720px/1.4);
+    
+    
+    
+    }
+    .text{
+        color: #3E3E3E;
+        font-size: calc(40px/1.4);
+        margin-top:calc(19.17/1.4)px;
+        font-family:roboto,light;
+    }
+    .input1,.input2{
+        
+        height:calc( 49px/1.4);
+        width: calc(400px/1.4);
+        border:1px solid #ADADAD;
+        border-radius: calc(5px);
+        margin-bottom: calc(27px/1.4);
+        padding-left: calc(14.5/1.4)px;
+    }
+    .loginbtn{
+        background-color: #C8242F;
+        color: #FFFFFF;
+        width:calc(138px/1.4);
+        height: calc(45px/1.4);
+        border-radius: calc(23px);
+        border-style: none;
+        font-size: calc(18px/1.4);
+       
+    }
+    .forgetps{
+        font-size: calc(15px/1.4);
+        color: #ADADAD;
+        margin-left: calc(150px/1.4);
+        
+    }  
+    
+}
+@media screen and (max-width:768px){
+    *{
+        background: #FAFAFA;
+    }
+    .main{
+        width: 100vw;
+        background: #FAFAFA;
+    }
+
+    .heroImage{
+        margin-top:25%;
+        margin-left: calc(166px/2.5);
+     
+     /* top: 72px;
+     
+     left: 166px; */
+    }
+    
+        .heroImage img{
+            
+    
+            border-radius: 50%;
+            width:calc(576px/3);
+            height:calc(576px/3);
+            box-shadow: 0px 4px 11px #0000000A;
+            border: 10px solid #FFFFFF;
+        
+        
+    }
+    .info{
+    
+        /* left:905px; */
+    width:calc(500px/1.4);
+    margin-left: calc(164px/1.38);}
+    .logoImage{
+        /* position: relative;
+        height:58px; */
+     height:calc(58px/1.4);
+        /* right:50px; */
+    }
+
+}
+
+@media screen and (max-width:600px){
+    .heroImage{
+        display: none;
+    }
+    *{
+        background: #FAFAFA;
+    }
+}
+
+
+/* RESPONSIVE DESIGN USING MEDIA QUERY */
+ 
+/*
+@media screen and (max-width:768px){
+
+    .main{
+
+        display:flex;
+        background: #FAFAFA;
+        font-family: 'Roboto',light875
+        height: 100vh;
+        width: 100%;
+        
+    }
+    .heroImage{
+        position:fixed;
+     
+        top: calc(72px/1.875);
+ 
+        left: calc(166px/1.875);
+    }
+    .heroImage img{
+        border-radius: 50%;
+        width:calc(576px/2.5);
+        height:calc(576px/2.5);
+        box-shadow: 0px 4px 12.44px #0000000A;
+        border: 10px solid #FFFFFF;
+    
+    }
+    
+    .info{
+        position:fixed;
+        left:calc(905px/1.875);
+        width:calc(500px/1.875);
+    }
+    .logoImage{
+        height:calc(58px/1.4);
+        margin-bottom: 15px;
+        position: fixed;
+    }
+    .logo{
+        display:flex;
+        position:fixed;
+        top:calc(106/1.875)px;
+        left:calc(906px/1.875);
+        align-items: center;
+        align-content: space-between;
+       
+    }
+    .title{
+        position: fixed;
+        top:calc(183px/1.875);
+    left:calc(905px/1.875);
+    right:calc(155px/1.875);
+    margin-bottom: calc(31.87/1.4)px;
+    height: calc(100px/1.4);
+    width:calc(720px/1.4);
+    margin-top: 10px;
+    
+    
+    }
+    .text{
+        color: #3E3E3E;
+        font-size: calc(40px/1.4);
+        margin-top:calc(19.17/1.4)px;
+        font-family:roboto,light;
+    }
+    .highlight{
+        color: #C8242F;
+    }
+    .text1{
+        position: fixed;
+        top: calc(315px/1.875);
+        left: calc(904px/1.875);
+        font-size: calc(25px/1.4);
+        color: #3E3E3E;
+        width:calc(260px/1.4);
+        height:calc(33px/1.4);
+        margin-bottom: calc(23.45/1.4)px;
+    
+    }
+    .input1,.input2{
+        
+        height:calc( 49px/1.4);
+        width: calc(400px/1.4);
+        border:1px solid #ADADAD;
+        border-radius: calc(5px);
+        margin-bottom: calc(27px/1.4);
+        padding-left: calc(14.5/1.4)px;
+    } */ 
+    /* .input2{
+        height: calc(49px/1.875);
+        width: calc(400px/1.875);
+        border:calc(1px)solid #ADADAD;
+        border-radius: calc(5px);
+             margin-bottom: calc(30.5px/1.875);
+        padding-left: calc(14.5px/1.875);
+    } */
+    /* .text2{
+        margin-bottom: calc(23.45px/1.875);
+    }
+    .button{
+        width:calc(429px/1.875);
+      
+        
+    }
+    
+    .loginbtn{
+        background-color: #C8242F;
+        color: #FFFFFF;
+        width:calc(138px/1.875);
+        height: calc(45px/1.875);
+        border-radius: calc(23px);
+        border-style: none;
+        font-size: calc(18px/1.875);
+       
+    }
+    .forgetps{
+        font-size: calc(15px/1.875);
+        color: #ADADAD;
+        margin-left: calc(150px/1.875);
+        
+    }
+    .plast{
+        font-size: calc(15px/1.875);
+        color: #ADADAD;
+    }
+    .lastspan{
+        font-size: calc(15px/1.875);
+        color: #C8242F;
+    }
+    .input2::placeholder{
+        color: #ADADAD;
+        font-size: calc(15px/1.875);
+        
+    
+    }
+    .input1::placeholder{
+        color: #ADADAD;
+        font-size: calc(15px/1.875);
+        
+    
+    } 
+    
+
+}
+
+
+@media screen and (max-width:362px){
+    .heroImage{
+        visibility: hidden;
+        display: hidden;
+        width:0px;
+        height:0px;
+    }
+    .imagei{
+        visibility: hidden;
+    }
+
+    .info{
+        position: fixed;
+        top: 10px;
+        left:10px;
+        margin-right: 100px;
+        
+    }
+    .main{
+        position: fixed;
+        top: 10px;
+        left:10px;
+    }
+} */ 
