@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/responsivedashboard.css" />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+  </head>
+  <body>
+    <div class="dashboard">
+      <header class="header-1">
+        <a id="menu-img"
+          ><img src="images/menu-bar.svg" class="headerlogo" /> </a
+        ><img src="images/header-logo.svg" class="companylogo" />
+        <img src="images\favicon.ico" alt="" class="small-logo1" />
+
+        <div class="search-div">
+          <img src="images/search-icon.svg" class="search" />
+
+          <input type="text" class="searchinput" placeholder="search" />
+        </div>
+        <img src="images/notification-icon.svg" class="notification" />
+        <div class="profile">
+          <img src="images/profile.png" class="profilepic" />
+          <span class="profilename">John doe</span>
+          <img src="images/downward-arrow.svg" class="arrow" />
+        </div>
+      </header>
+      <div class="content">
+        <nav id="side-bar" class="sidebar">
+          <ul class="sideul">
+            <li class="sidelist1">
+              <img src="images/dashboard-active.svg" class="sideimg" />
+              <p class="sidedash1">Dashboard</p>
+            </li>
+            <li class="sidelist">
+              <img src="images/graph-default.svg" class="sideimg" />
+              <p class="sidedash">Analysis</p>
+            </li>
+            <li class="sidelist">
+              <img src="images/inbox-default.svg" class="sideimg" />
+              <p class="sidedash">Inbox</p>
+            </li>
+            <li class="sidelist">
+              <img src="images/clock-default.svg" class="sideimg" />
+              <p class="sidedash">History</p>
+            </li>
+            <li class="sidelist">
+              <img src="images/user-default.svg" class="sideimg" />
+              <p class="sidedash">Users</p>
+            </li>
+            <li class="sidelist">
+              <img src="images/maintenance-default.svg" class="sideimg" />
+              <p class="sidedash">Maintenance</p>
+            </li>
+            <li class="sidelist">
+              <img src="images/setting-default.svg" class="sideimg" />
+              <p class="sidedash">Setting</p>
+            </li>
+          </ul>
+        </nav>
+       
+        <div class="sideright">
+          <div class="dashboard">
+            <span class="dashboardtitle">Dashboard</span>
+          </div>
+
+          <div class="information">
+            <div class="cardz1">
+              <img src="images/star.svg" alt="" class="cardimagez" />
+              <div class="cardinner">
+                <span class="cardnumber">23456</span>
+                <p class="cardtext">New Products</p>
+              </div>
+            </div>
+            <div class="cardz">
+              <img src="images/new-product.svg" alt="" class="cardimagez" />
+              <div class="cardinner">
+                <span class="cardnumber">2345</span>
+                <p class="cardtext">Added Products</p>
+              </div>
+            </div>
+            <div class="cardz">
+              <img src="images/money-bag.svg" alt="" class="cardimagez" />
+              <div class="cardinner">
+                <span class="cardnumber">335342</span>
+                <p class="cardtext">Total Sale</p>
+              </div>
+            </div>
+            <div class="cardz">
+              <img src="images/total-product.svg" alt="" class="cardimagez" />
+              <div class="cardinner">
+                <span class="cardnumber">32456</span>
+                <p class="cardtext">Total Products</p>
+              </div>
+            </div>
+            <div class="cardz" id="lastcard">
+              <img src="images/dollar-filled.svg" alt="" class="cardimagez" />
+              <div class="cardinner">
+                <span class="cardnumber">5678</span>
+                <p class="cardtext">Today's Sale</p>
+              </div>
+            </div>
+          </div>
+          <div class="graphcontainer">
+            <div class="graph1">
+              <div class="graph1top">
+                <a class="graphtitle">Sale</a>
+
+                <a class="link1">Weekly</a>
+                <a class="link2">Monthly</a>
+                <a class="link3">yearly</a>
+              </div>
+              <img src="images/data-graph.png" alt="" class="img1" />
+            </div>
+            <div class="piecontainer">
+              <p class="pietitle">Sales by Country</p>
+              <img src="images/pie-chart.svg" alt="" />
+              <div class="contryname1">
+                <div class="countryname">
+                  <div class="reddot"></div>
+                  <p>United States of America</p>
+                </div>
+                <div class="countryname">
+                  <div class="greendot"></div>
+                  <p>Canada</p>
+                </div>
+              </div>
+              <div class="contryname2">
+                <div class="countryname">
+                  <div class="saffrondot"></div>
+                  <p>Russia</p>
+                </div>
+                <div class="countryname">
+                  <div class="yellowdot"></div>
+                  <p>India</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="rightbottom">
+            <p class="tabletitle">Invoices</p>
+
+            <div class="table-responsive">
+              <table class="table">
+                <thead class="table-header">
+                  <th>Invoice</th>
+                  <th>Company name</th>
+                  <th>email</th>
+                  <th>due date</th>
+                  <th>status</th>
+                  <th>amount</th>
+                </thead>
+
+                <tbody>
+                  <tr>
+                    <td>651535</td>
+                    <td>public adjusting firm</td>
+                    <td>georgia.young@gmail.com</td>
+                    <td>24 may 2020</td>
+                    <td class="paid">paid</td>
+                    <td>$47800</td>
+                  </tr>
+
+                  <tr>
+                    <td>651535</td>
+                    <td>public adjusting firm</td>
+                    <td>georgia.young@gmail.com</td>
+                    <td>24 may 2020</td>
+                    <td class="paid">paid</td>
+                    <td>$47800</td>
+                  </tr>
+
+                  <tr>
+                    <td>651535</td>
+                    <td>public adjusting firm</td>
+                    <td>georgia.young@gmail.com</td>
+                    <td>24 may 2020</td>
+                    <td class="paid">paid</td>
+                    <td>$47800</td>
+                  </tr>
+
+                  <tr>
+                    <td>651535</td>
+                    <td>public adjusting firm</td>
+                    <td>georgia.young@gmail.com</td>
+                    <td>24 may 2020</td>
+                    <td class="paid">paid</td>
+                    <td>$47800</td>
+                  </tr>
+
+                  <tr>
+                    <td>651535</td>
+                    <td>public adjusting firm</td>
+                    <td>georgia.young@gmail.com</td>
+                    <td>24 may 2020</td>
+                    <td class="paid">paid</td>
+                    <td>$47800</td>
+                  </tr>
+
+                  <tr>
+                    <td>651535</td>
+                    <td>public adjusting firm</td>
+                    <td>georgia.young@gmail.com</td>
+                    <td>24 may 2020</td>
+                    <td class="paid">paid</td>
+                    <td>$47800</td>
+                  </tr>
+
+                  <tr>
+                    <td>651535</td>
+                    <td>public adjusting firm</td>
+                    <td>georgia.young@gmail.com</td>
+                    <td>24 may 2020</td>
+                    <td class="paid">paid</td>
+                    <td>$47800</td>
+                  </tr>
+
+                  <tr>
+                    <td>651535</td>
+                    <td>public adjusting firm</td>
+                    <td>georgia.young@gmail.com</td>
+                    <td>24 may 2020</td>
+                    <td class="failed">failed</td>
+                    <td>$47800</td>
+                  </tr>
+
+                  <tr>
+                    <td>651535</td>
+                    <td>public adjusting firm</td>
+                    <td>georgia.young@gmail.com</td>
+                    <td>24 may 2020</td>
+                    <td class="failed">failed</td>
+                    <td>$47800</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      document.getElementById("menu-img").onclick = function () {
+        document.getElementById("side-bar").classList.toggle("display-none");
+      };
+    </script>
+  </body>
+</html>
