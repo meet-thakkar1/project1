@@ -98,6 +98,12 @@
   .notification {
     margin-left: 20%;
   }
+  #side-bar{
+    display: none;
+  }
+  #side-bar.display-none{
+   display:block;
+ }
   
 }
 @media screen and (max-width: 947px) {

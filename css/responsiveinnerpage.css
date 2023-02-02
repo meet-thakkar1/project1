@@ -59,13 +59,13 @@ margin-left: 924.2px;
 .sidebar{
     display: flex;
     flex-direction: column;
-    width:300px;
+    width:250px;
     z-index: 100;
 
 }
 .sidelist1
 {
-    width:183px;
+    width:150px;
     height:43px;
     display:flex;
     align-items:center;
@@ -73,13 +73,15 @@ margin-left: 924.2px;
     background: #FFF3F4;
     border-radius: 5px;
     margin-top: 25px;
+    margin-right: 10px;
 }
 .sidelist{
-    width: 225px;
+    width: 150px;
     height:43px;
     display: flex;
     align-items:center;
     list-style-type: none;
+    margin-right: 10px;
     
 }
 
@@ -476,8 +478,14 @@ margin-right: 500px;
  @media screen and (max-width: 1084px) {
    .notification {
      margin-left: 20%;
+   }  
+   #side-bar{
+     display: none;
    }
-   
+   #side-bar.display-none{
+    display:block;
+  }
+  
  }
  @media screen and (max-width: 947px) {
    .notification {
@@ -528,6 +536,6 @@ margin-right: 500px;
 
 
 /* toggle */
- .display-none {
-    display: none;
-  }
+.display-none {
+  display: none;
+}
